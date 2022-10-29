@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Breasts/FeaturelessLeft"]/offsets</xpath>
+		<success>Always</success>
+		<value>
+			<offsets>
+				<south>
+					<layerOffset>-0.2765</layerOffset>
+					<bodyTypes>
+						<Male>(-0.4042926,0.194)</Male>
+						<Female>(-0.4049383,0.20)</Female>
+						<Fat>(-0.279,0.16)</Fat>
+						<Thin>(-0.42,0.22)</Thin>
+						<Hulk>(-0.3084309,0.05)</Hulk>
+					</bodyTypes>
+				</south>
+				<north>
+					<layerOffset>-0.2765</layerOffset>
+					<bodyTypes>
+						<Male>(0.02787782,0.5)</Male>
+						<Female>(-0.0002926054,0.56)</Female>
+						<Fat>(-0.05575563,0.46)</Fat>
+						<Thin>(0.006569132,0.537)</Thin>
+						<Hulk>(0,0.41)</Hulk>
+					</bodyTypes>
+				</north>
+				<east>
+					<layerOffset>-0.2765</layerOffset>
+					<bodyTypes>
+						<Male>(-0.518,0.1913)</Male>
+						<Female>(-0.428,0.236)</Female>
+						<Fat>(-0.62,0.21)</Fat>
+						<Thin>(-0.409,0.22)</Thin>
+						<Hulk>(-0.6,0.093)</Hulk>
+					</bodyTypes>
+				</east>
+			</offsets>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Pants and Flak Pants -->
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Shorts"]/apparel</xpath>
+    <value>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ChHotPants/ChHotPants</wornGraphicPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Skirt"]/apparel</xpath>
+    <value>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ChSkirt/ChSkirt</wornGraphicPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Trousers"]/apparel</xpath>
+    <value>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Pants/Pants</wornGraphicPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VAE_Apparel_Jeans"]/apparel</xpath>
+    <value>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Pants/Pants</wornGraphicPath>
+    </value>
+  </Operation>
+</Patch>

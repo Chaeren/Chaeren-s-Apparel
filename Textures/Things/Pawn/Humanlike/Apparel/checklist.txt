@@ -1,0 +1,35 @@
+Done (Female):
+ShirtBasic
+ShirtButton
+TribalA 		*west textures?
+ChStringBikini
+CHSwimsuit
+Parka
+ShirtRuffle
+CorsetRoyal
+Duster
+ChTribalBra
+FlakVest
+
+To do:
+*Better Thin Textures*
+Jacket
+BodyStrap
+FlakJacket
+PlateArmor
+Power armors
+
+New Stuff:
+TribalParka		*use current textures, make new textures for regular parka
+Dress
+Different types of low tech armor
+Slave apparel
+
+Low Priority:
+EltexShirt
+EltexVest
+EltexRobe
+RoyalRobe
+VestRoyal
+Burka
+Robe
